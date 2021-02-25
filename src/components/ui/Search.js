@@ -1,4 +1,4 @@
-export const Search =() => (
+export const Search = () => (
     <>
         <div className="lg:flex">
             <div className="m-4 p-6 flex">
@@ -14,7 +14,7 @@ export const Search =() => (
                     <input className="w-80 outline-black" placeholder=""/>
                 </label>
             </div>
-            
+
                     <label className="inline-flex items-center">
                         <input type="radio" className="form-radio" name="exclusion" value="exclusion"/>
                         <span className="ml-2">Exclusions</span>

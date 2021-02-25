@@ -1,16 +1,18 @@
-import './App.css';
-import {MainNav, Footer, Search} from "./components/ui";
+import {Route, Switch} from 'react-router-dom';
+import { Main, List, Planner, Detail , About, Contact } from "./pages";
 
 function App() {
   return (
-    <>
-       <MainNav/>
-       <Search/>
-       <div className="p-24">
-           <h1 className="text-5xl">Meal Planner</h1>
-       </div>
-       <Footer/>
-    </>
+      <Switch>
+        <Route exact path="/" component={Main}/>
+        <Route exact path="/List" component={List}/>
+        <Route exact path="/Planner" component={Planner}/>
+        <Route exact path="/Detail" component={Detail}/>
+        <Route exact path="/About" component={About}/>
+        <Route exact path="/Contact" component={Contact}/>
+
+      </Switch>
+
   );
 }
 
