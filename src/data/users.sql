@@ -1,0 +1,10 @@
+insert into users (id, first_name, last_name, email) values (1, 'Nye', 'Gipp', 'ngipp0@nytimes.com');
+insert into users (id, first_name, last_name, email) values (2, 'Wolf', 'Ferrieres', 'wferrieres1@ft.com');
+insert into users (id, first_name, last_name, email) values (3, 'Tabbie', 'Hayman', 'thayman2@cpanel.net');
+insert into users (id, first_name, last_name, email) values (4, 'Sharla', 'Cant', 'scant3@technorati.com');
+insert into users (id, first_name, last_name, email) values (5, 'Webster', 'Sybry', 'wsybry4@istockphoto.com');
+insert into users (id, first_name, last_name, email) values (6, 'Jock', 'Mounch', 'jmounch5@timesonline.co.uk');
+insert into users (id, first_name, last_name, email) values (7, 'Sig', 'Baszkiewicz', 'sbaszkiewicz6@de.vu');
+insert into users (id, first_name, last_name, email) values (8, 'Geordie', 'Giorgini', 'ggiorgini7@ehow.com');
+insert into users (id, first_name, last_name, email) values (9, 'Perry', 'Ivy', 'pivy8@google.com.br');
+insert into users (id, first_name, last_name, email) values (10, 'Leonerd', 'Osanne', 'losanne9@clickbank.net');
